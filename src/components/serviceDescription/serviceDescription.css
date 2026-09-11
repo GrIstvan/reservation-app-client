@@ -1,0 +1,44 @@
+.detaild-description-container {
+    --left-width: 40%;
+    display: grid;
+    grid-template-columns: var(--left-width) 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.left-side {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 3;
+    background: rgba(165, 160, 160, 0);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.provider-image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    background: transparent;
+}
+
+.right-row {
+    grid-column: 2 / 3;
+    background: rgba(165, 160, 160, 0.13);
+    padding: 14px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(12,20,40,0.04);
+}
+
+.right-row span {
+    display: flex;
+    padding: 10px;
+}
+
+
+

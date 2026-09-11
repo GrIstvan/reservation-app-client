@@ -1,0 +1,112 @@
+.modalBackground {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.45);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.modalContainer {
+    width: 90%;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    animation: slideUp 0.25s ease;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 22px;
+}
+
+.title h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: green;
+}
+
+.titleCloseBtn button {
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    color: #666;
+    transition: all 0.2s ease;
+}
+
+.titleCloseBtn button:hover {
+    background: red;
+    color: #111;
+}
+
+.body {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 18px 22px;
+}
+
+.footer button {
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.footer button:not(#cancelBtn) {
+    background: #4f46e5;
+    color: white;
+}
+
+.footer button:not(#cancelBtn):hover {
+    background: #4338ca;
+}
+
+#cancelBtn {
+    background: #ececec;
+    color: #444;
+}
+
+#cancelBtn:hover {
+    background: #dcdcdc;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.97);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

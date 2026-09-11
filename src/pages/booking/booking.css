@@ -1,0 +1,131 @@
+.booking-page {
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.booking-card {
+    width: 100%;
+    max-width: 700px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+}
+
+.booking-card h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.booking-card h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.booking-card p {
+    color: #cbd5e1;
+}
+
+.calendar-container {
+    margin-top: 35px;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.calendar-container h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.calendar-container input {
+    width: 100%;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.calendar-container input:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.selected-date {
+    margin-top: 25px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    color: #e2e8f0;
+}
+
+.time-container {
+    margin-top: 30px;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.time-container h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.time-slots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.time-slot {
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.time-slot:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.time-slot.selected {
+    background: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.02);
+}
+
+.booking-summary {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+}
+
+.booking-summary h3 {
+    margin-top: 0;
+}
+
+.booking-summary p {
+    margin: 8px 0;
+}

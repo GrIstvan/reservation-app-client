@@ -1,0 +1,630 @@
+{
+        id: 1,
+        name: "Kék Ég Szolgáltató Kft.",
+        adress: "Budapest, Andrássy út 12.",
+        cover_image: "https://picsum.photos/628/757",
+        description: "Magas minőségű karbantartási és takarítási szolgáltatások.",
+        phone: 36201234567,
+        email: "info@kekeg.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 2,
+        name: "Zöld Kéz Kertészet Bt.",
+        adress: "Debrecen, Kossuth utca 45.",
+        cover_image: "https://picsum.photos/394/570",
+        description: "Kertépítés, növényápolás és öntözőrendszerek telepítése.",
+        phone: 36301239876,
+        email: "kapcsolat@zoldkez.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 3,
+        name: "Villám Szerelő Szerviz",
+        adress: "Szeged, Petőfi Sándor sétány 9.",
+        cover_image: "https://picsum.photos/522/269",
+        description: "Gyors és megbízható villanyszerelő szolgáltatások.",
+        phone: 36701231234,
+        email: "hello@villamszerelo.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 4,
+        name: "Arany Ablak Tisztítás Kft.",
+        adress: "Győr, Baross Gábor út 22.",
+        cover_image: "https://picsum.photos/647/732",
+        description: "Professzionális ablaktisztítás és homlokzatkarbantartás.",
+        phone: 36205439876,
+        email: "info@aranyablak.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 5,
+        name: "Mester Festő Team",
+        adress: "Pécs, Ferencesek utcája 8.",
+        cover_image: "https://picsum.photos/397/631",
+        description: "Beltéri és kültéri festési, mázolási munkák.",
+        phone: 36209123456,
+        email: "hello@mesterfesto.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 6,
+        name: "Friss Levegő Légtechnika Kft.",
+        adress: "Miskolc, Szentpáli utca 14.",
+        cover_image: "https://picsum.photos/607/432",
+        description: "Légkondicionáló és szellőző rendszerek telepítése és karbantartása.",
+        phone: 36304455667,
+        email: "info@frisslevego.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 7,
+        name: "Biztos Tető Tetőfedés",
+        adress: "Kecskemét, Rákóczi út 31.",
+        cover_image: "https://picsum.photos/742/379",
+        description: "Tetőfedési, javítási és szigetelési szolgáltatások.",
+        phone: 36204433221,
+        email: "kapcsolat@biztosteto.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 8,
+        name: "Gyors Duguláselhárítás 0-24",
+        adress: "Székesfehérvár, Fő utca 19.",
+        cover_image: "https://picsum.photos/675/778",
+        description: "Azonnali duguláselhárítás és vízvezeték-szerelés.",
+        phone: 36705551234,
+        email: "ugyfelszolgalat@dugulaselharitas.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 9,
+        name: "Csillag Fodrász Szalon",
+        adress: "Eger, Dobó tér 3.",
+        cover_image: "https://picsum.photos/694/335",
+        description: "Modern fodrászati szolgáltatások és hajápolás.",
+        phone: 36203334455,
+        email: "info@csillagszalon.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 10,
+        name: "Tiszta Otthon Takarítók",
+        adress: "Sopron, Várkerület 72.",
+        cover_image: "https://picsum.photos/784/512",
+        description: "Lakások és irodák rendszeres vagy alkalmi takarítása.",
+        phone: 36305550123,
+        email: "hello@tisztaotthon.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 11,
+        name: "KonyhaGuru Gépjavító",
+        adress: "Szolnok, Ady Endre út 4.",
+        cover_image: "https://picsum.photos/598/691",
+        description: "Háztartási gépek gyors javítása garanciával.",
+        phone: 36207123456,
+        email: "szerviz@konyhaguru.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 12,
+        name: "Alfa Informatikai Szolgáltatók",
+        adress: "Veszprém, Óváros tér 11.",
+        cover_image: "https://picsum.photos/352/677",
+        description: "IT támogatás, hálózatépítés és rendszerüzemeltetés.",
+        phone: 36308887766,
+        email: "support@alfait.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 13,
+        name: "FreshCar Autókozmetika",
+        adress: "Tatabánya, Ságvári út 26.",
+        cover_image: "https://picsum.photos/690/507",
+        description: "Autókozmetikai szolgáltatások teljes körű külső-belső tisztítással.",
+        phone: 36303337788,
+        email: "info@freshcar.hu",
+        userServiceProvider: []
+    },    
+    {
+        id: 14,
+        name: "SpeedWash Autóápolás",
+        adress: "Budapest, Üllői út 321.",
+        cover_image: "https://picsum.photos/501/214",
+        description: "Prémium kézi autómosás és belső kárpittisztítás.",
+        phone: 36204445566,
+        email: "kapcsolat@speedwash.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 15,
+        name: "Csillogó Kocsi Center",
+        adress: "Győr, Fehérvári út 18.",
+        cover_image: "https://picsum.photos/350/741",
+        description: "Külső-belső autókozmetika modern technológiákkal.",
+        phone: 36203332211,
+        email: "info@csillogokocsi.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 16,
+        name: "Diamond Car Care",
+        adress: "Debrecen, Kossuth utca 44.",
+        cover_image: "https://picsum.photos/437/361",
+        description: "Kerámia bevonatok és mélytisztítás prémium minőségben.",
+        phone: 36205556677,
+        email: "hello@diamondcarcare.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 17,
+        name: "Perfect Shine Autómosó",
+        adress: "Szeged, József Attila sugárút 92.",
+        cover_image: "https://picsum.photos/682/799",
+        description: "Gépjárművek professzionális polírozása és waxolása.",
+        phone: 36209998877,
+        email: "info@perfectshine.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 18,
+        name: "CrystalAuto Tisztító",
+        adress: "Pécs, Rákóczi út 13.",
+        cover_image: "https://picsum.photos/422/270",
+        description: "Hatékony vegyszermentes belső tisztítás.",
+        phone: 36207775511,
+        email: "kapcsolat@crystalauto.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 19,
+        name: "EcoWash Autókozmetika",
+        adress: "Miskolc, Szentpéteri kapu 101.",
+        cover_image: "https://picsum.photos/276/723",
+        description: "Környezetbarát autómosási szolgáltatások.",
+        phone: 36201112233,
+        email: "info@ecowash.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 20,
+        name: "LuxCar Detail",
+        adress: "Kecskemét, Izsáki út 56.",
+        cover_image: "https://picsum.photos/311/612",
+        description: "Prémium autókozmetika, kerámia és grafén bevonatok.",
+        phone: 36205553322,
+        email: "hello@luxcardetail.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 21,
+        name: "CleanMax Autókozmetika",
+        adress: "Tatabánya, Fő tér 7.",
+        cover_image: "https://picsum.photos/755/658",
+        description: "Gyors és alapos kézi autómosás.",
+        phone: 36304445522,
+        email: "info@cleanmax.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 22,
+        name: "ProDetail Garage",
+        adress: "Székesfehérvár, Palotai út 88.",
+        cover_image: "https://picsum.photos/614/464",
+        description: "Autóápolás és fényezésvédelem haladó technológiákkal.",
+        phone: 36206668844,
+        email: "hello@prodetail.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 23,
+        name: "ShineTime Autómosó",
+        adress: "Veszprém, Jutasi út 120.",
+        cover_image: "https://picsum.photos/373/324",
+        description: "Kézi mosás, kárpittisztítás, motortér tisztítás.",
+        phone: 36207774455,
+        email: "info@shinetime.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 24,
+        name: "TurboClean Autóápolás",
+        adress: "Eger, Széchenyi út 5.",
+        cover_image: "https://picsum.photos/240/506",
+        description: "Gyors autómosás és részletező tisztítás.",
+        phone: 36203338899,
+        email: "kapcsolat@turboclean.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 25,
+        name: "Wax&Go Studio",
+        adress: "Szolnok, Ady Endre út 67.",
+        cover_image: "https://picsum.photos/504/269",
+        description: "Professzionális waxolás és polírozás.",
+        phone: 36204446677,
+        email: "info@waxandgo.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 26,
+        name: "AutoGleam Központ",
+        adress: "Zalaegerszeg, Balatoni út 12.",
+        cover_image: "https://picsum.photos/491/742",
+        description: "Teljes körű autókozmetika és beltérfertőtlenítés.",
+        phone: 36201114422,
+        email: "hello@autogleam.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 27,
+        name: "PrimeWash Autókozmetika",
+        adress: "Békéscsaba, Andrássy út 82.",
+        cover_image: "https://picsum.photos/213/455",
+        description: "Precíz kézi mosás minden autótípus számára.",
+        phone: 36207779955,
+        email: "info@primewash.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 28,
+        name: "KlaroCar Detail",
+        adress: "Sopron, Várkerület 2.",
+        cover_image: "https://picsum.photos/247/248",
+        description: "Autóápolás prémium anyagokkal.",
+        phone: 36206669911,
+        email: "hello@klarocar.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 29,
+        name: "ShinePro Autókozmetika",
+        adress: "Kaposvár, Fő utca 99.",
+        cover_image: "https://picsum.photos/800/300",
+        description: "Külső-belső tisztítás és illatosítás.",
+        phone: 36201112299,
+        email: "kapcsolat@shinepro.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 30,
+        name: "MagicTouch Car Spa",
+        adress: "Nyíregyháza, Bethlen Gábor utca 71.",
+        cover_image: "https://picsum.photos/667/488",
+        description: "Autókozmetikai kezelések prémium felszereléssel.",
+        phone: 36205557734,
+        email: "info@magictouch.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 31,
+        name: "BrightCar Center",
+        adress: "Szombathely, Körmendi út 30.",
+        cover_image: "https://picsum.photos/742/794",
+        description: "Autópolírozás és mélytisztítás.",
+        phone: 36207779922,
+        email: "hello@brightcar.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 32,
+        name: "AutoRevive Kozmetika",
+        adress: "Tatabánya, Gál István út 14.",
+        cover_image: "https://picsum.photos/472/664",
+        description: "Autófelújítás és professzionális tisztítás.",
+        phone: 36303334455,
+        email: "kapcsolat@autorevive.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 33,
+        name: "ProClean Wash",
+        adress: "Pécs, Engel János utca 3.",
+        cover_image: "https://picsum.photos/760/379",
+        description: "Kézi autómosás modern eszközökkel.",
+        phone: 36201116677,
+        email: "info@procleanwash.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 34,
+        name: "ShineWorks Detail",
+        adress: "Budapest, Baross utca 189.",
+        cover_image: "https://picsum.photos/334/734",
+        description: "Minőségi részletező autóápolás.",
+        phone: 36206664433,
+        email: "hello@shineworks.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 35,
+        name: "CarbonClean Autókozmetika",
+        adress: "Győr, Barátság út 44.",
+        cover_image: "https://picsum.photos/222/282",
+        description: "Katalizátortisztítás és autókozmetikai szolgáltatások.",
+        phone: 36207775588,
+        email: "info@carbonclean.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 36,
+        name: "AutoFresh Center",
+        adress: "Eger, Hatvani kapu tér 9.",
+        cover_image: "https://picsum.photos/272/458",
+        description: "Autóillatosítás és gyorsmosás.",
+        phone: 36205554433,
+        email: "hello@autofresh.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 37,
+        name: "ShineGarage",
+        adress: "Debrecen, Hadházi út 201.",
+        cover_image: "https://picsum.photos/260/402",
+        description: "Külső mosás, belső tisztítás, fertőtlenítés.",
+        phone: 36203336655,
+        email: "info@shinegarage.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 38,
+        name: "AutoLux Polish",
+        adress: "Szolnok, Tószegi út 14.",
+        cover_image: "https://picsum.photos/518/510",
+        description: "Fényezésvédelem és polírozás.",
+        phone: 36204445511,
+        email: "kapcsolat@autolux.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 39,
+        name: "ProGloss Autómosó",
+        adress: "Szeged, Bakay Nándor utca 33.",
+        cover_image: "https://picsum.photos/724/617",
+        description: "Prémium autófényesítés.",
+        phone: 36206668877,
+        email: "hello@progloss.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 40,
+        name: "CleanDream Car Care",
+        adress: "Tatabánya, Győri út 22.",
+        cover_image: "https://picsum.photos/777/234",
+        description: "Autókozmetika és részletezés.",
+        phone: 36304443366,
+        email: "info@cleandream.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 41,
+        name: "AutoSpark Studio",
+        adress: "Sopron, Balfi út 80.",
+        cover_image: "https://picsum.photos/735/455",
+        description: "Autómosás és fényesítés.",
+        phone: 36201114477,
+        email: "hello@autospark.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 42,
+        name: "GlamourCar Detail",
+        adress: "Zalaegerszeg, Eötvös utca 20.",
+        cover_image: "https://picsum.photos/655/375",
+        description: "Külső-belső professzionális tisztítás.",
+        phone: 36203335522,
+        email: "info@glamourcar.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 43,
+        name: "CarSpa Deluxe",
+        adress: "Veszprém, Almádi út 5.",
+        cover_image: "https://picsum.photos/499/632",
+        description: "Autó wellness szolgáltatások.",
+        phone: 36207774412,
+        email: "hello@carspadeluxe.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 44,
+        name: "ShineHub Autókozmetika",
+        adress: "Nyíregyháza, Sóstói út 111.",
+        cover_image: "https://picsum.photos/493/471",
+        description: "Autókozmetikai csomagok kedvező áron.",
+        phone: 36203338812,
+        email: "info@shinehub.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 45,
+        name: "DetailKing Garage",
+        adress: "Budapest, Váci út 33.",
+        cover_image: "https://picsum.photos/380/691",
+        description: "Fényezésvédelem és kerámia bevonat.",
+        phone: 36206669944,
+        email: "hello@detailking.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 46,
+        name: "AutoCare Express",
+        adress: "Győr, Ipar utca 141.",
+        cover_image: "https://picsum.photos/409/423",
+        description: "Gyors autómosás és belső takarítás.",
+        phone: 36201116655,
+        email: "info@autocareexpress.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 47,
+        name: "EliteShine Autóápolás",
+        adress: "Debrecen, Kishegyesi út 53.",
+        cover_image: "https://picsum.photos/333/677",
+        description: "Prémium tisztítás és polírozás.",
+        phone: 36204443388,
+        email: "kapcsolat@eliteshine.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 48,
+        name: "SparkLine Detail",
+        adress: "Pécs, Nagy Imre út 15.",
+        cover_image: "https://picsum.photos/568/732",
+        description: "Kocsirészletezés és kozmetika.",
+        phone: 36205551144,
+        email: "info@sparkline.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 49,
+        name: "CarNova Autókozmetika",
+        adress: "Szombathely, Zanati út 1.",
+        cover_image: "https://picsum.photos/797/487",
+        description: "Autómosás és teljes autóápolás.",
+        phone: 36203339922,
+        email: "hello@carnova.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 50,
+        name: "ShinePro Elite",
+        adress: "Szeged, Rókusi körút 33.",
+        cover_image: "https://picsum.photos/735/603",
+        description: "Fényezésvédelem csúcskategóriában.",
+        phone: 36207775544,
+        email: "info@shineproelite.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 51,
+        name: "WashCity Autókozmetika",
+        adress: "Szolnok, Baross út 60.",
+        cover_image: "https://picsum.photos/567/498",
+        description: "Autómosás és részletezés.",
+        phone: 36204448899,
+        email: "hello@washcity.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 52,
+        name: "CrystalShine Garage",
+        adress: "Tatabánya, Mártírok útja 12.",
+        cover_image: "https://picsum.photos/488/499",
+        description: "Kerámia bevonat és mélytisztítás.",
+        phone: 36303336644,
+        email: "info@crystalshine.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 53,
+        name: "LuxDetail Center",
+        adress: "Kaposvár, Dózsa György utca 41.",
+        cover_image: "https://picsum.photos/584/224",
+        description: "Prémium belső tisztítás.",
+        phone: 36201118877,
+        email: "hello@luxdetail.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 54,
+        name: "AutoMagic Spa",
+        adress: "Eger, Törvényház utca 3.",
+        cover_image: "https://picsum.photos/277/723",
+        description: "Magic Touch polírozás.",
+        phone: 36202223344,
+        email: "info@automagicspa.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 55,
+        name: "ShineBox Autókozmetika",
+        adress: "Veszprém, Táborállás tér 11.",
+        cover_image: "https://picsum.photos/612/727",
+        description: "Autókozmetikai csomagok többféle opcióval.",
+        phone: 36203339955,
+        email: "kapcsolat@shinebox.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 56,
+        name: "AutoGloss Studio",
+        adress: "Győr, Ipar körút 7.",
+        cover_image: "https://picsum.photos/600/762",
+        description: "Professzionális polírozás.",
+        phone: 36205552288,
+        email: "hello@autogloss.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 57,
+        name: "CleanPro Garage",
+        adress: "Debrecen, Derék utca 115.",
+        cover_image: "https://picsum.photos/430/570",
+        description: "Belső tisztítás és fertőtlenítés.",
+        phone: 36204442233,
+        email: "info@cleanpro.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 58,
+        name: "DetailExpress Autóápolás",
+        adress: "Székesfehérvár, Zámoly út 50.",
+        cover_image: "https://picsum.photos/651/214",
+        description: "Gyors és minőségi autókozmetika.",
+        phone: 36206662244,
+        email: "kapcsolat@detailexpress.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 59,
+        name: "CarShine Factory",
+        adress: "Sopron, Híd utca 34.",
+        cover_image: "https://picsum.photos/301/546",
+        description: "Teljes körű tisztítás és polírozás.",
+        phone: 36209997788,
+        email: "info@carshinefactory.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 60,
+        name: "PrimeGloss Detail",
+        adress: "Pécs, Ürögi fasor 10.",
+        cover_image: "https://picsum.photos/319/332",
+        description: "Autókozmetika professzionális szinten.",
+        phone: 36207771155,
+        email: "hello@primegloss.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 61,
+        name: "SparkPro Autómosó",
+        adress: "Zalaegerszeg, Kinizsi utca 8.",
+        cover_image: "https://picsum.photos/255/395",
+        description: "Kézi mosás, gyorswax.",
+        phone: 36202227799,
+        email: "info@sparkpro.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 62,
+        name: "AutoFresh Pro",
+        adress: "Békéscsaba, Gyulai út 10.",
+        cover_image: "https://picsum.photos/251/247",
+        description: "Autókozmetikai szolgáltatások széles választéka.",
+        phone: 36205559933,
+        email: "hello@autofreshpro.hu",
+        userServiceProvider: []
+    },
+    {
+        id: 63,
+        name: "DetailWorks Studio",
+        adress: "Nyíregyháza, Korányi Frigyes út 82.",
+        cover_image: "https://picsum.photos/204/227",
+        description: "Prémium részletezés és kerámia bevonat.",
+        phone: 36203337711,
+        email: "info@detailworks.hu",
+        userServiceProvider: []
+    }

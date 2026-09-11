@@ -1,0 +1,31 @@
+.hamburger {
+    width: 32px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger {
+    width: 32px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    transform-origin: center;
+}
+
+/* X állapot */
+
+.hamburger.open .burger1 {
+    transform: translateY(11px) rotate(45deg);
+}
+
+.hamburger.open .burger2 {
+    opacity: 0;
+}
+
+.hamburger.open .burger3 {
+    transform: translateY(-11px) rotate(-45deg);
+}

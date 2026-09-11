@@ -1,0 +1,16 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: search;
+}
+
+.search-input {
+    width: 300px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    background-color: #111;
+    color: white;
+    font-size: 1rem;
+}

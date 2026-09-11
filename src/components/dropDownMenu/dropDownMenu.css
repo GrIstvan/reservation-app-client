@@ -1,0 +1,41 @@
+.customDropDown span.material-symbols-outlined{
+    position: absolute;
+    right: 12px;
+    top: 45px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.customDropDown{
+    position: relative;
+    
+}
+
+.customDropDown ul{
+    top: 51px;
+    position: absolute;
+    width: -webkit-fill-available;
+    border-radius: 5px;
+    background-color: azure;
+    list-style-type: none;
+    color: black;
+    padding-inline-start: 0;
+    padding: 5px;
+    
+}
+
+.customDropDown ul li{
+    width: 100%;
+    cursor: pointer;
+}
+
+.customDropDown ul li:hover{
+    background: lightgray;
+}
